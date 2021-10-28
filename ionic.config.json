@@ -1,0 +1,7 @@
+{
+  "name": "smarteeHospitalDashboard",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
