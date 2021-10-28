@@ -1,0 +1,25 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-smarteehospitaldashb-dev-173039-authRole",
+      "UnauthRoleArn": "arn:aws:iam::378358802604:role/amplify-smarteehospitaldashb-dev-173039-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::378358802604:role/amplify-smarteehospitaldashb-dev-173039-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-smarteehospitaldashb-dev-173039-deployment",
+      "UnauthRoleName": "amplify-smarteehospitaldashb-dev-173039-unauthRole",
+      "StackName": "amplify-smarteehospitaldashb-dev-173039",
+      "StackId": "arn:aws:cloudformation:us-east-1:378358802604:stack/amplify-smarteehospitaldashb-dev-173039/064d32f0-3804-11ec-9221-1289ac4902b3",
+      "AmplifyAppId": "d1m1me2mnfd1og"
+    },
+    "categories": {
+      "auth": {
+        "smarteehospitaldashb0af3d480": {
+          "userPoolId": "us-east-1_vs3AMo1me",
+          "userPoolName": "androidsdk2b6d82cfd_userpool_b6d82cfd-amplify",
+          "webClientId": "208o6numc60mtec48d65e8vcfh",
+          "nativeClientId": "208o6numc60mtec48d65e8vcfh"
+        }
+      }
+    }
+  }
+}

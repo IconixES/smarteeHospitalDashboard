@@ -1,0 +1,11 @@
+{
+  "auth": {
+    "smarteehospitaldashb0af3d480": {
+      "service": "Cognito",
+      "serviceType": "imported",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}

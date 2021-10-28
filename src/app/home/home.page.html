@@ -1,20 +1,58 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-img class="logo" src="/assets/Images/logo.png"></ion-img>
+        </ion-col>
+        <ion-col size>
+          <ion-title>Smartee Hospital Mangement</ion-title>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large">Smartee Hospital Maangement</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-title>WARD 1</ion-title>
+      </ion-col>
+      <ion-col>
+        <ion-title>WARD 2</ion-title>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col *ngIf = "ward1 === 1" class="wardHeightFull"></ion-col>
+      <ion-col *ngIf = "ward1 === 0" class="wardHeightEmpty"></ion-col>
+      <ion-col *ngIf = "ward2 === 1" class="wardHeightFull"></ion-col>
+      <ion-col *ngIf = "ward2 === 0" class="wardHeightEmpty"></ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-list *ngFor="let calls of sosCalls">
+        <ion-row>
+          <ion-col size = 3>
+            <ion-item>
+              Help
+            </ion-item>
+
+          </ion-col>
+          <ion-col size = 9>
+            <ion-item>
+              {{calls.time}}
+            </ion-item>
+
+          </ion-col>
+        </ion-row>
+    </ion-list>
+  </ion-row>
+  </ion-grid>
 </ion-content>

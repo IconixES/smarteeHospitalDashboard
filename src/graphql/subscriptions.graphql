@@ -1,0 +1,88 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateHospitalTags {
+  onCreateHospitalTags {
+    id
+    name
+    description
+    mac
+    sos
+    tagType
+    reader
+    rssi
+    stamp
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateHospitalTags {
+  onUpdateHospitalTags {
+    id
+    name
+    description
+    mac
+    sos
+    tagType
+    reader
+    rssi
+    stamp
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteHospitalTags {
+  onDeleteHospitalTags {
+    id
+    name
+    description
+    mac
+    sos
+    tagType
+    reader
+    rssi
+    stamp
+    createdAt
+    updatedAt
+  }
+}
+subscription OnCreateHospitalTracking {
+  onCreateHospitalTracking {
+    id
+    name
+    description
+    mac
+    sos
+    tagType
+    reader
+    createdAt
+    rssi
+    updatedAt
+  }
+}
+subscription OnUpdateHospitalTracking {
+  onUpdateHospitalTracking {
+    id
+    name
+    description
+    mac
+    sos
+    tagType
+    reader
+    createdAt
+    rssi
+    updatedAt
+  }
+}
+subscription OnDeleteHospitalTracking {
+  onDeleteHospitalTracking {
+    id
+    name
+    description
+    mac
+    sos
+    tagType
+    reader
+    createdAt
+    rssi
+    updatedAt
+  }
+}

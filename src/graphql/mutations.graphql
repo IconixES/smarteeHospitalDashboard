@@ -1,0 +1,106 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateHospitalTags(
+  $input: CreateHospitalTagsInput!
+  $condition: ModelHospitalTagsConditionInput
+) {
+  createHospitalTags(input: $input, condition: $condition) {
+    id
+    name
+    description
+    mac
+    sos
+    tagType
+    reader
+    rssi
+    stamp
+    createdAt
+    updatedAt
+  }
+}
+mutation UpdateHospitalTags(
+  $input: UpdateHospitalTagsInput!
+  $condition: ModelHospitalTagsConditionInput
+) {
+  updateHospitalTags(input: $input, condition: $condition) {
+    id
+    name
+    description
+    mac
+    sos
+    tagType
+    reader
+    rssi
+    stamp
+    createdAt
+    updatedAt
+  }
+}
+mutation DeleteHospitalTags(
+  $input: DeleteHospitalTagsInput!
+  $condition: ModelHospitalTagsConditionInput
+) {
+  deleteHospitalTags(input: $input, condition: $condition) {
+    id
+    name
+    description
+    mac
+    sos
+    tagType
+    reader
+    rssi
+    stamp
+    createdAt
+    updatedAt
+  }
+}
+mutation CreateHospitalTracking(
+  $input: CreateHospitalTrackingInput!
+  $condition: ModelHospitalTrackingConditionInput
+) {
+  createHospitalTracking(input: $input, condition: $condition) {
+    id
+    name
+    description
+    mac
+    sos
+    tagType
+    reader
+    createdAt
+    rssi
+    updatedAt
+  }
+}
+mutation UpdateHospitalTracking(
+  $input: UpdateHospitalTrackingInput!
+  $condition: ModelHospitalTrackingConditionInput
+) {
+  updateHospitalTracking(input: $input, condition: $condition) {
+    id
+    name
+    description
+    mac
+    sos
+    tagType
+    reader
+    createdAt
+    rssi
+    updatedAt
+  }
+}
+mutation DeleteHospitalTracking(
+  $input: DeleteHospitalTrackingInput!
+  $condition: ModelHospitalTrackingConditionInput
+) {
+  deleteHospitalTracking(input: $input, condition: $condition) {
+    id
+    name
+    description
+    mac
+    sos
+    tagType
+    reader
+    createdAt
+    rssi
+    updatedAt
+  }
+}

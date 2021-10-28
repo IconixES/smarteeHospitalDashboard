@@ -25,3 +25,23 @@
 #container a {
   text-decoration: none;
 }
+
+.wardHeightFull{
+  width:100%;    // Adjust the width according to heigh
+  height: 50vh;
+  background-color: #25e40bcc;
+}
+
+.wardHeightEmpty{
+  width:100%;    // Adjust the width according to heigh
+  height: 50vh;
+  background-color: #0d0488ef;
+}
+
+
+.logo {
+  height:50px;
+  width: 50px;
+  margin: 0px !important;
+  padding: 0px !important;
+}

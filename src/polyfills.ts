@@ -60,6 +60,16 @@ import './zone-flags';
 import 'zone.js/dist/zone';  // Included with Angular CLI.
 
 
+import 'core-js/es/typed-array';
+import 'core-js/es/object';
+
+
 /***************************************************************************************************
  * APPLICATION IMPORTS
  */
+
+
+ (window as any).global = window;
+ (window as any).process = {
+   env: { DEBUG: undefined },
+ };
